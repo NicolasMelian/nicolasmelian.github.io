@@ -1,0 +1,284 @@
+body{
+    background-color: rgb(232, 82, 42);
+}
+h1, h2, h3, h4, h5, h6, p{
+    color: white;
+}
+h1, h2, h3{
+    font-family: 'Gugi', cursive;
+}
+h1{
+    font-size: 2rem !important;
+}
+h2{
+    font-size: 1.6rem !important;
+}
+h5{
+    font-size: 1.1rem !important
+}
+.row{
+    margin:0;
+}
+.section-one{
+    min-height: 80vh;
+}
+#section-two{
+    background-color: rgb(66, 66, 66);
+    min-height: 60vh;
+}
+
+#section-four{
+    background-color: rgb(66, 66, 66);
+    min-height: 30vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#section-four h1{
+    padding: 1rem;
+}
+.section-four-inner{
+    min-height: 30vh;
+}
+#section-five{
+    padding: 1.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#section-six{
+    background-color: rgb(66, 66, 66);
+    padding: 1rem;
+    width: 100%
+}
+.text-footer{
+    color: white;
+    padding: 1rem;
+}
+.logos-footer{
+    float: right;
+    padding-top: 0.8rem;
+    width: 100%;
+}
+.logos-footer img{
+    padding-left: 1rem;
+}
+#contact-form button{
+    margin: 0.5rem;
+}
+.tecnology{
+    padding: 2rem;
+}
+.tecnology img{
+    width: 106px;
+    margin-bottom: 1rem;
+}
+.perfil{
+    min-height: 100vh;
+    padding-top: 72px;
+}
+.header:before{
+	position: absolute;
+	content:" ";
+	top:0;
+	left:0;
+	height: 100vh;
+	width: 100%;
+	display: block;
+	z-index:0;
+	background-color: rgba(10,00,10,0.5);
+  }
+
+.header{
+    background-image: url('src/min-header-img.jpeg');
+    -webkit-background-size: cover;    
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header-form:before{
+	position: absolute;
+	content:" ";
+	top:0;
+	left:0;
+	height: 100vh;
+	width: 100%;
+	display: block;
+	z-index:0;
+	background-color: rgba(10,00,10,0.5);
+  }
+.header-form{
+    background-image: url('src/min-header-img.jpeg');
+    -webkit-background-size: cover;    
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-dark{
+    background-color: rgba(232, 82, 42, 0.7);
+}
+.navbar-brand{
+    display: flex !important;
+}
+
+.nav-icon-social{
+    display: inline;
+}
+.nav-icon-social li{
+    float: left !important;
+    padding-right: 0.8rem;
+}
+
+#img-perfil{
+    height: 225px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#section-two h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.services{
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+.services-inner{
+    padding-left:0 !important;
+    padding-right: 0 !important;
+}
+
+#section-three{
+    padding: 0.5rem;
+    min-height: 70vh;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+#section-three div{
+    padding-top: 2rem;
+}
+#projects div{
+    padding-left:0;
+    padding-right:0;
+}
+.img-project{
+    max-width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+.text-form{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
+}
+
+#button-form{
+    background-color: rgb(66, 66, 66);
+    float: right;
+    width: 5rem;
+    height: 2.7rem;
+    border-color: white;
+}
+#button-form:hover{
+    background-color: rgb(252, 102, 62);
+    border-color: white;
+}
+.message-form h1{
+    color: white;
+    padding-top: 5rem;
+    font-family: 'Gugi', cursive;
+    float: inline-block;
+}
+.message-form h4{
+    color: white;
+    font-family: 'Gugi', cursive;
+    float: inline-block;
+    padding-top: 3rem;
+}
+#volver{
+    font-style: none;
+}
+#volver:hover{
+    font-style: none;
+    color: rgb(232, 82, 42) !important;
+}
+#volver:hover h1{
+    font-style: none;
+    color: rgb(232, 82, 42) !important;
+}
+#icon{
+    border-radius: 50%;
+}
+@media only screen and (min-width: 400px){
+    h1{
+        text-align: center !important;
+        font-size: 2.5rem !important;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .header{
+        background-image: url('src/header-img.jpg');
+    }
+    #section-three{
+        padding: 3rem;
+        min-height: 50vh;
+    }
+    
+    h2{
+        font-size: 2rem !important;
+    }
+    h5{
+        font-size: 1.25rem !important
+    }
+    #section-six{
+        padding: 1.5rem;
+    }
+    .tecnology img{
+        width: 128px;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .logos-footer{
+        padding: 1rem;
+    }
+    .logos-footer img{
+        float: right !important;
+    }
+    .services{
+        min-height: 350px;
+    }
+    
+    #section-five{
+        padding: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+@media only screen and (min-width: 992px){
+    
+    h1{
+        font-size: 3rem !important;
+    }
+    .tecnology{
+        padding: 4rem;
+    }
+    .perfil{
+        padding-left: 6rem;
+    }
+    #img-perfil{
+        height: 300px;
+    }
+    .img-project{
+        padding: 1rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px){
+    #img-perfil{
+        height: 350px;
+    }
+}
