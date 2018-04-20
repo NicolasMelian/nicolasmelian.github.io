@@ -12,6 +12,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <link rel="icon" href="src/nicolas-melian.jpg" class="icon">
+    <script src="scroll.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 <body>
 <div class="content">
@@ -36,7 +39,7 @@
                         </ul>       
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active text-center">
+                                    <li class="nav-item text-center">
                                         <a class="nav-link" href="#section-one">Home<span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item text-center">
@@ -67,7 +70,7 @@
                 </div>
 
 
-                <div id="section-two" class="text-center">
+                <div id="section-two" class="text-center section">
                     <h1>Servicios</h1>
                     <div class="row text-center"> 
                     <div class="col-12 col-md-6">
@@ -94,7 +97,7 @@
 
 
 
-                    <div class="col-12- col-md-6">
+                    <div class="col-12 col-md-6 section">
                             <div class="col-12 row services justify-content-center">
                                 <div class="col-12 col-sm-9 text-center services-inner">
                                     <h2>Mobile responsive</h2>
@@ -119,23 +122,31 @@
                     </div>
 
 
-                    <div id="section-three" class="text-center">
+                    <div id="section-three" class="text-center section">
                         <h1>Proyectos</h1>
                         
                             <div id="projects" class="justify-content-center col-12 row">
                                 <div class="col-12 col-md-6">
                                     <img  class="img-fluid img-project" src="src/project-one.png" alt="Imagen de proyecto 'frases de pieter levels'">
                                     <h5>Phases Of Pieter Levels</h5>
+                                    <a type="button" class="btn btn-primary" data-toggle="button" aria-pressed="true" autocomplete="off" href="">Ver</a>
                                 </div>
                                 <div class="col-12 col-md-6">
                                         <img class="img-fluid img-project" src="src/project-two.png" alt="Imagen de proyecto 'Wiki Viewer'">
-                                        <h5>Wiki Viewer</h5>
+                                        <h5>Hamburger Patagonia</h5>
+                                        <a type="button" class="btn btn-primary" data-toggle="button" aria-pressed="true" autocomplete="off" href="https://nicolas.">Ver</a>
                                 </div>
+                                
+                                <div class="col-12 col-md-6">
+                                    <img class="img-fluid img-project" src="src/project-three.png" alt="Imagen de proyecto 'Wiki Viewer'">
+                                    <h5>Wiki Viewer</h5>
+                                    <a type="button" class="btn btn-primary active" data-toggle="button" aria-pressed="true" autocomplete="off" href="https://hamburgerpatagonia.netifly.com">Ver</a>
+                            </div>
                             </div>
                     </div>
 
 
-                    <div id="section-four" class="text-center">
+                    <div id="section-four" class="text-center section">
                         <h2>TECNOLOGIAS</h2>
                         <div class="d-flex container section-four-inner justify-content-center">
                         <div class="row justify-content-center align-self-center">
@@ -164,7 +175,7 @@
                     </div>
 
 
-                    <div id="section-five">
+                    <div id="section-five" class="section">
                         <div class="text-form text-center">
                             <h2>¡Escríbeme!</h2>
                             <h5>Contactame y podremos hablar de cual es el mejor camino para que tengas el sitio web que deseas
@@ -185,7 +196,7 @@
                     </div>
 
                     
-                    <div id="section-six" class="row">
+                    <div id="section-six" class="row section">
                         <div class="col-12 col-sm-8 text-footer">
                             <h5>nicolasmelian.github.io © 2018 - Todos los derechos reservados.</h5>
                         </div>
