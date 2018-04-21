@@ -7,7 +7,7 @@ $(document).ready(function() {
       $("html, body").stop();
       $("html, body").animate({
         scrollTop: $($(this).attr("href")).offset().top
-      }, 1400)
+      }, 1000)
     } else {
       $($(this)).attr("target", "_blank")
     }
